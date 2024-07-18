@@ -1,0 +1,16 @@
+.Slider-Buttons {
+  display: flex;
+  align-items: center;
+
+
+  button {
+    @apply hover:bg-[#cccccc] duration-300 ml-2;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    justify-content: center;
+    border-radius: 24px;
+    background-color: #e5e5e5;
+    color: rgb(63, 63, 63);
+  }
+}
